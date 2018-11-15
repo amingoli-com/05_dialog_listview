@@ -19,16 +19,15 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity ( new Intent ( MainActivity.this,Dialog.class ) );
-            }
-        } );
+            } } );
+
 
         listview=findViewById ( R.id.btn_listview );
         listview.setOnClickListener ( new View.OnClickListener ( ) {
             @Override
             public void onClick(View v) {
                 startActivity ( new Intent ( MainActivity.this , ListView.class ) );
-            }
-        } );
+            } } );
 
 
     }

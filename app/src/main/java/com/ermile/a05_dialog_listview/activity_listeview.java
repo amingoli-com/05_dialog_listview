@@ -42,7 +42,7 @@ public class activity_listeview extends AppCompatActivity {
     }
 
     private void refreshDisplay() {
-        ArrayAdapter<String> adapter = new ArrayAdapter <String> ( this,android.R.layout.simple_expandable_list_item_1 );
+        ArrayAdapter<String> adapter = new ArrayAdapter <String> ( this,android.R.layout.simple_expandable_list_item_1,items );
         listView.setAdapter ( adapter );
     }
 }

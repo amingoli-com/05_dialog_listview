@@ -3,11 +3,12 @@ package com.ermile.a05_dialog_listview;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.ArrayAdapter;
+import android.widget.ListView;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class ListView extends AppCompatActivity {
+public class activity_listeview extends AppCompatActivity {
 
 
     List<String> items;
@@ -16,7 +17,7 @@ public class ListView extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate ( savedInstanceState );
-        setContentView ( R.layout.activity_listview );
+        setContentView ( R.layout.activity_listeview );
         listView = findViewById ( R.id.abclist );
 
 
@@ -28,7 +29,7 @@ public class ListView extends AppCompatActivity {
 
 
     public void listDate(){
-        items = new ArrayList <> (  );
+        items = new ArrayList<> (  );
         items.add ( "Qom" );
         items.add ( "Tehran" );
         items.add ( "Qossdsm" );
